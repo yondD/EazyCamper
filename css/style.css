@@ -1,0 +1,441 @@
+body {
+    font-family: 'Merriweather', serif;
+    background: #E5E5E5;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: #F78065;
+}
+
+
+/* header */
+
+.header {
+    height: 650px;
+}
+
+.headerBg {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+.headerWrapper {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLogo {
+    margin-top: 40px;
+}
+
+.accountList {
+    width: 86px;
+    height: 53px;
+    margin-top: 30px;
+    margin-left: 1150px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 26.5px;
+}
+
+.accountListButton {
+    margin-left: 5px;
+    padding-right: 10px;
+    border: none;
+    background: none;
+    background-color: none;
+}
+
+.typeUser {
+    width: 32px;
+    height: 32px;
+}
+
+
+/* cover window */
+
+.coverWindow {
+    position: absolute;
+    z-index: 2;
+    width: 741px;
+    height: 537px;
+    margin-top: 386px;
+    margin-left: 63px;
+    background: #ffffff;
+}
+
+.coverWindowTitle {
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 49px;
+    color: #000000;
+    padding-top: 85px;
+    padding-left: 64px;
+    padding-right: 156px;
+}
+
+.coverWindowTitle strong {
+    color: #F78065;
+}
+
+.coverWindowText {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.6;
+    padding-top: 29px;
+    padding-left: 64px;
+    padding-right: 162px;
+}
+
+.coverWindowButton {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 125%;
+    /* identical to box height, or 22px */
+    /* White */
+    color: #FFFFFF;
+    border: none;
+    background: #F78065;
+    margin-left: 62px;
+    margin-bottom: 75px;
+}
+
+.contentcoverWindowButton {
+    display: flex;
+    align-items: center;
+    padding: 21px 77px 21px 69px;
+}
+
+.coverWindowImg {
+    margin-right: 8px;
+}
+
+
+/* benefits */
+
+.benefitsWrapper {
+    padding-top: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefitBlockImg {
+    padding-bottom: 84px;
+}
+
+.benefitTitle {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.benefitText {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    /* margin-bottom: 30px; */
+}
+
+.benefitLink {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F78065;
+}
+
+.benefitBlock {
+    margin-left: 41px;
+}
+
+
+/* known */
+
+.knownTitle {
+    margin-top: 240px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.knownBlocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.knownBlockIcon {
+    margin-bottom: 64px;
+    margin-top: 108px;
+}
+
+.knownBlockTitle {
+    margin-bottom: 31px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.knownBlockText {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #000000;
+    opacity: 0.5;
+}
+
+.knownBlockText2 {
+    margin-bottom: 40px;
+}
+
+.knownBlockButton {
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #F78065;
+    padding: 0;
+}
+
+
+/* examples */
+
+.examples {
+    margin-top: 250px;
+}
+
+.examplesWrapper {
+    display: flex;
+}
+
+.examplesLeftBlockTitle {
+    margin: 0;
+    margin-bottom: 32px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.examplesLeftBlockText {
+    margin: 0;
+    margin-bottom: 48px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.triangle {
+    margin-right: 4px;
+}
+
+.examplesLeftBlockButton {
+    border: none;
+    padding: 21px 92px 21px 84px;
+    background: #F78065;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 125%;
+    /* identical to box height, or 22px */
+    /* White */
+    color: #FFFFFF;
+}
+
+.examplesBlocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exampleBlockImg {
+    margin-bottom: 24px;
+}
+
+.exampleBlockTitle {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.exampleBlockCountry {
+    margin: 0;
+    margin-bottom: 9px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #3F3D56;
+}
+
+.exampleBlockLink {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #F78065;
+}
+
+
+/* advantages */
+
+.advantagesTitle {
+    margin-top: 230px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.advantagesBlocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantagesBlockIcon {
+    margin-top: 100px;
+}
+
+.advantagesBlockTitle {
+    margin: 0;
+    margin-top: 64px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.advantagesBlockText {
+    margin: 0;
+    margin-top: 52px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #000000;
+    opacity: 0.5;
+}
+
+.advantagesBlockText2 {
+    margin-top: 24px;
+}
+
+
+/* footer */
+
+footer {
+    background: #F7F7F7;
+    margin-top: 180px;
+    padding-top: 90px;
+}
+
+.footerWrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.footerTitle {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.footerLogoText {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000
+}
+
+.footerNavsColumn {
+    display: flex;
+}
+
+.NavColumn {
+    display: grid;
+    margin-left: 106px;
+}
+
+.navColumnTitle {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+    margin: 0;
+    margin-bottom: 26px;
+}
+
+.footerNavLinks {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #000000;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.footerNavLinks:hover {
+    color: #000000;
+}
+
+
+/* underFooter */
+
+.underFooter {
+    background: #F7F7F7;
+}
+
+.underFooterWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-bottom: 25px;
+}
+
+.leftUnderFooterText {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #000000
+}
+
+.underFooterLink {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: right;
+    color: #000000;
+    margin-left: 48px;
+}
+
+.underFooterLink:hover {
+    color: #000000;
+}
